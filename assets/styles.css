@@ -1,0 +1,83 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+/* Title Style */
+.parallax a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+/* Style the tab */
+/* .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #404040
+} */
+
+/* Style the buttons that are used to open the tab content */
+/* .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 100%;
+    text-align: center;
+    color: #ffffff;
+} */
+
+/* Ripple effect */
+.tablinks {
+  background-position: center;
+  transition: background 0.5s;
+  font-family: 'Roboto';
+  background-color: rgb(190, 190, 190);
+  color: rgb(24, 24, 24);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+.tablinks:hover {
+  background: rgb(168, 168, 168) radial-gradient(circle, transparent 1%, rgb(168, 168, 168) 1%) center/15000%;
+  background-color: #777;
+  color: white;
+}
+.tablinks:active {
+  background-color: rgb(144, 144, 144);
+  background-size: 100%;
+  transition: background 0s;
+  color: #fff;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 3em 2em;
+  height: 100%;
+}
+
+#Home {background-color: #da5050;}
+#Portfolio {background-color: #245bc4;}
+#FAQ {background-color: #39cb50;}
+#AboutMe {background-color: #e37d2a;}
+#Contact {background-color: #9531b8;}
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 400%;
+  text-align: center;
+}
