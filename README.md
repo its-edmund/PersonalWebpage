@@ -1,3 +1,3 @@
 # PersonalWebpage
 
-This is really gay, GitHub is gay.
+GitHub is too complicated.
